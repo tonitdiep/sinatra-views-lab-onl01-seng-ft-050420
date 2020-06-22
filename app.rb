@@ -12,8 +12,7 @@ class App < Sinatra::Base
     erb :goodbye
   end
   
-  get "/date" do
+  get '/date' do
     erb :today
-    # (Date.strftime("%A, %B %d, %Y"))
   end
 end
